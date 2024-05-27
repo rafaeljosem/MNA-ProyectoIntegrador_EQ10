@@ -1,3 +1,7 @@
 **/tmp
 **/**.zip
 .env
+**/.DS_Store
+instruction_set.json
+__pycache__
+legal_documents
