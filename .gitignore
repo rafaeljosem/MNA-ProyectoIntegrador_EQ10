@@ -5,3 +5,6 @@
 instruction_set.json
 __pycache__
 legal_documents
+.deepeval
+.deepeval-cache.json
+test_results
