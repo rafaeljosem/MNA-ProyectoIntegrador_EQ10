@@ -8,3 +8,6 @@ legal_documents
 .deepeval
 .deepeval-cache.json
 test_results
+mexican_law_16bit
+mexican_law_model
+synthetic_data
