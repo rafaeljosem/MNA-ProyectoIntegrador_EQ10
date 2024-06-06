@@ -11,3 +11,5 @@ test_results
 mexican_law_16bit
 mexican_law_model
 synthetic_data
+!Avance-7/synthetic_data
+**/**.safetensors
