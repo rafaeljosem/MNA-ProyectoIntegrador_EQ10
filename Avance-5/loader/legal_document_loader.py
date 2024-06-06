@@ -12,7 +12,6 @@ from typing import Dict, List
 import pandas as pd
 from encoder.utf8_encoder import convert_to_utf8
 from loader.downloader import download_files
-from logger.logger import Logger
 
 
 def remove_new_lines(lines: list) -> list:
@@ -50,7 +49,6 @@ class LegalDocumentLoader:
     """
     Class for loading legal documents from various sources.
     """
-    logger = Logger()
 
     @staticmethod
     def load_from_url(url: str) -> List[Dict[str, str]]:
