@@ -7,9 +7,10 @@ __pycache__
 legal_documents
 .deepeval
 .deepeval-cache.json
-test_results
+**/test_results/**
+!Avance-7/test_results/test_results.json
 mexican_law_16bit
 mexican_law_model
 synthetic_data
-!Avance-7/synthetic_data
+!Avance-7/synthetic_data/test_set.json
 **/**.safetensors
