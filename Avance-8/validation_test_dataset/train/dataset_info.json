@@ -1,0 +1,60 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "legal-mx-instruction-dataset-0-6-inst-ft-prompts",
+  "dataset_size": 47282832,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/JonathanGarza/legal-mx-instruction-dataset-0-6-inst-ft-prompts@7064cb129bf5d0c7d6037018c167ab629ae5a9c9/data/train-00000-of-00001.parquet": {
+      "num_bytes": 18724808,
+      "checksum": null
+    },
+    "hf://datasets/JonathanGarza/legal-mx-instruction-dataset-0-6-inst-ft-prompts@7064cb129bf5d0c7d6037018c167ab629ae5a9c9/data/test-00000-of-00001.parquet": {
+      "num_bytes": 2020827,
+      "checksum": null
+    }
+  },
+  "download_size": 20745635,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "context": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 68028467,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 42653519,
+      "num_examples": 10072,
+      "dataset_name": "legal-mx-instruction-dataset-0-6-inst-ft-prompts"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 4629313,
+      "num_examples": 1120,
+      "dataset_name": "legal-mx-instruction-dataset-0-6-inst-ft-prompts"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
